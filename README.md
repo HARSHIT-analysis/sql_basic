@@ -34,6 +34,8 @@ please note details such as primary keys, foreign keys, data type, not null cons
 
 ![Screenshot 2025-04-15 122345](https://github.com/user-attachments/assets/a624f35e-388c-4989-9753-eb2c288da2df)
 
+# the third table is going to be the order of the customer and it will contain orderno, item id  from florist table, customer id from customer table, 
+order quantity,and the date  of the order .
 
 
 
