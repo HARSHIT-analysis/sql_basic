@@ -13,4 +13,7 @@
 * INSERT INTO florist values('STIK.DAND','STICK',750,'STICK OF DANDELIONS')
 * INSERT INTO florist values('BOUQ.SUN','BOUQUET',750,'FRESH GROUP OF SUNFLOWERS')
 
+![Florist table](https://github.com/user-attachments/assets/622d468d-2aba-47cb-b379-0f077b554eef)
+
+
 
