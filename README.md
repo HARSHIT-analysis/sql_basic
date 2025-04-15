@@ -4,6 +4,8 @@
 
 #syntax for the table florist 
 
+please note details such as primary keys, foreign keys, data type, not null constraints
+
 * create table florist(itemid varchar(10) primary key not null, itemnm varchar(15),price int not null, descr varchar(30))
 * insert into florist values('GAR','GARLAND',500,' GARLAND OF FRESH MIX ROSES')
 * INSERT INTO florist values('BOUQ','BOUQUET',750,'MIX WITH ROSES AND TULIPS')
