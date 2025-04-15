@@ -1,3 +1,4 @@
+# PROJECT SQL BASIC :
 <font color="green">**#[CREATING 2 TABLES AND CONNECTING IT WITH A NEW TABLE THROUGH VARIOUS REFERENCES]**</font>
 
 *First i am creating a table florist that contains item id ,item name, price and its description*
