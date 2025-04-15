@@ -22,7 +22,7 @@ please note details such as primary keys, foreign keys, data type, not null cons
 *NOW*
 *I AM CREATING ANOTHER TABLE WHICH WILL CONTAIN  CUSTOMER ID AND CUSTOMER NAME*
 
-#Syntax for the same will be again(please notes the syntax i am using )
+#Syntax for the same IS given below {again(please notes the syntax i am using)}
 
 * CREATE TABLE CUSTOMER(custid int primary key not null,customernm varchar(20))
 * insert into customer values(001,'HARSHIT')
