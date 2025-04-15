@@ -32,9 +32,27 @@ please note details such as primary keys, foreign keys, data type, not null cons
 * insert into customer values(004,'VANSH')
 * insert into customer values(005,'KARTIK')
 
-![Screenshot 2025-04-15 122345](https://github.com/user-attachments/assets/a624f35e-388c-4989-9753-eb2c288da2df)
+![CUSTOMER TABLE](https://github.com/user-attachments/assets/a624f35e-388c-4989-9753-eb2c288da2df)
 
  the third table is going to be the order of the customer and it will contain orderno, item id  from florist table, customer id from customer table, order quantity,and the date  of the order .
+ * down below are the syntaxes where in i have created the columns then again added some more columns using alter and then made some changes to touch an imp aspect of sql
+   filteration using where to give reference to make changes in the respective columns.
+   
+* CREATE TABLE ORDERNO(orderno int not null, Itemid varchar(10) references florist(itemid) ,Custid int references CUSTOMER(custid))
+* select * from ORDERNO
+* alter TABLE ORDERNO ADD orderqt int not null,orderdt date default getdate()
+* insert into ORDERNO values(101,'BOUQ.SUN',004,3,getdate())
+* insert into ORDERNO values(102,'GAR.R',004,9,getdate())
+* insert into ORDERNO values(103,'STIK.DAND',004,3,getdate())
+* insert into ORDERNO values(104,'BOUQ',003,5,getdate())
+* insert into ORDERNO values(105,'GAR',002,8,getdate())
+* insert into ORDERNO values(106,'GAR.R',005,4,getdate())
+* UPDATE ORDERNO set orderno=111 where Itemid='GAR.R'
+  
+  *HERE GOES THE FINAL OUTPUT TABLE USING BOTH THE ABOVE TABLES AS A REFERENCE*
+
+  ![ORDER OF THE CUSTOMERS](https://github.com/user-attachments/assets/fd1a0e91-e65e-49bc-af92-8c2de98d4274)
+
 
 
 
